@@ -40,6 +40,20 @@ Info from: http://mdfs.net/Info/Comp/BBC/MIDI/m2000
 
 * Information about Midi on the BBC Microcomputer: http://mdfs.net/Info/Comp/BBC/MIDI/
 
+## All BBC MIDI Interfaces
+
+There is a lot of similarity between all BBC Midi Interfaces but also differences. The Data port is always one higher than the the control port.
+
+| Inteface  | OUTS | Out &          | IN &   | INT  |Notes |
+| ----------| -----| ---------------| -------| -----| -----| 
+| Hybrid 2000 | 3  | 08, 0A, 0C     | 0C     | IRQ  | Has LEDs |
+| UMI 4M      | 4  | 08, 0A, 0C, 0E | 08     | NMI  | Custom 32 Byte ROM @ XX |
+| POWERTRAN   | 1  | Choice         | Choice | IRQ  | Special Output |
+| EPE         | 1  | Any            | Any    | None | EPI March 1985 |
+| ETI         | 1  | F0, F2         | F0, F2 | IRQ  | ETI 1987 |
+| EMR         | 1  | F0             | F0     | IRQ  | 2 Mhz UART Clock (x64) |
+| J.G.Harston | 1  | F0             | F0, F2 | IRQ  | |
+
 ## Licence
 
 Unless otherwise marked, work in this repository is licenced under [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)  ![Creative Commons Licence](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
