@@ -47,7 +47,7 @@ There is a lot of similarity between all BBC Midi Interfaces but also difference
 | Inteface  | OUTS | Out &          | IN &   | INT  |Notes |
 | ----------| -----| ---------------| -------| -----| -----| 
 | Hybrid 2000 | 3  | 08, 0A, 0C     | 0C     | IRQ  | Has LEDs |
-| UMI 4M      | 4  | 08, 0A, 0C, 0E | 08     | NMI  | Custom 32 Byte ROM @ XX |
+| UMI 4M      | 4  | 00 (80), 08 (88), 28 (A8), 30 (B0) | 00 (80) | NMI  | Custom 32 Byte ROM @ 38 (B8) |
 | POWERTRAN   | 1  | Choice         | Choice | IRQ  | Special Output |
 | EPE         | 1  | Any            | Any    | None | EPI March 1985 |
 | ETI         | 1  | F0, F2         | F0, F2 | IRQ  | ETI 1987 |

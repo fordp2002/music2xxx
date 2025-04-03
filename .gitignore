@@ -26,3 +26,16 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+#Backups
+*.zip
+
+#Screenshots
+*.png
+
+#Assembly Drawings
+*.pdf
+
+#Helper Scrips
+*.py
+
